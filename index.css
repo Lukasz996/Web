@@ -59,6 +59,11 @@ h3 {
   text-align: center;
 }
 
+.header-mobile .locations p {
+  text-transform: uppercase;
+  color: #c31f05;
+}
+
 .header-mobile .locations span:nth-of-type(odd) {
   color: #ffbe00;
 }
