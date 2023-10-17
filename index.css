@@ -65,6 +65,7 @@ h3 {
   color: #c31f05;
 }
 
+
 .header-mobile .locations span:nth-of-type(odd) {
   color: #ffbe00;
 }
@@ -110,6 +111,32 @@ h3 {
   display: inline-block;
   padding: 5px 25px;
   border-radius: 55px;
+}
+
+.main{
+  padding: 15px 20px 0px ;
+}
+
+.hello h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hello p {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.hello ul{
+  position: relative;
+  padding: 20px 0 ;
+  padding-left: 1.5em;
+}
+
+.gallery .gallery-item {
+  
 }
 
 /* Media Query dla urządzeń mobilnych */
