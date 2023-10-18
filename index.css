@@ -19,6 +19,8 @@ h3 {
   margin-top: 0;
 }
 
+/* ----------------------mobile------------------------ */
+
 .header-mobile {
   position: relative;
   /* height: 100%; */
@@ -85,14 +87,6 @@ h3 {
   justify-content: center;
 }
 
-/* .header-mobile .bot {
-  background: #ffbe00;
-  position: absolute;
-  display: block;
-  width: 100%;
-  bottom: 0;
-  height: 50px;
-} */
 
 .header-mobile .bottom span {
   color: #000;
@@ -113,8 +107,12 @@ h3 {
   border-radius: 55px;
 }
 
-.main{
-  padding: 15px 20px 0px ;
+/* ------------------------------------------------- */
+
+
+.hello {
+  text-align: center;
+  color: #3d3d3d;
 }
 
 .hello h1 {
@@ -131,12 +129,41 @@ h3 {
 
 .hello ul{
   position: relative;
-  padding: 20px 0 ;
-  padding-left: 1.5em;
+  padding: 0;
+  list-style: none;
 }
 
-.gallery .gallery-item {
-  
+.hello ul li {
+  padding-top: 10px;
+}
+
+/* -------------------galeria------------------ */
+
+.gallery {
+  padding-top: 15px;
+  text-align: center;
+}
+
+.gallery .gal{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.gallery .gal .gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+.gallery .gal .gallery-item img{
+  width: 100%;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
 }
 
 /* Media Query dla urządzeń mobilnych */
