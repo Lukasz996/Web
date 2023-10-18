@@ -59,10 +59,10 @@ h3 {
 }
 
 .header-mobile .locations {
-	font-size: 1.8em;
+	font-size: 1.2em;
 	text-align: center;
-  margin-top: 25%;
-  padding: 10px 15px 10px 15px;
+  margin-top: 5%;
+  padding: 5px 10px 5px 10px;
 }
 
 .header-mobile .locations p {
@@ -80,8 +80,8 @@ h3 {
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
-	padding-top: 25px;
-  padding-bottom: 25px;
+	padding-top: 15px;
+  padding-bottom: 15px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
