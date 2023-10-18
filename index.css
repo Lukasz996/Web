@@ -24,7 +24,7 @@ h3 {
 .header-mobile {
 	position: relative;
 	/* height: 100%; */
-	height: 100vh;
+	height: 95vh;
 	display: flex;
 	flex-direction: column;
 	overflow-x: hidden;
