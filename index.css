@@ -21,7 +21,7 @@ h3 {
 
 .header-mobile {
   position: relative;
-  height: 100%;
+  /* height: 100%; */
   height:100vh;
   display: flex;
   flex-direction: column;
@@ -39,24 +39,25 @@ h3 {
 .header-mobile .red-bar {
   text-align: center;
   background-size: cover;
-  padding: 5px 15px 15px 15px;
+  padding: 5px 5px 5px 5px;
 }
 
 .header-mobile .red-bar h1 {
+  text-align: center;
   margin: 0;
   font-weight: normal;
-  font-size: 2.8em;
+  font-size: 2.2em;
 }
 
 .header-mobile .red-bar h3 {
   font-weight: normal;
   margin: 0;
-  font-size: 1.8em;
+  font-size: 1.6em;
 }
 
 .header-mobile .locations {
-  padding: 25px 15px 20px 15px;
-  font-size: 1.6em;
+  padding: 5px 5px 5px 5px;
+  font-size: 1.2em;
   text-align: center;
 }
 
@@ -74,10 +75,9 @@ h3 {
   background: #ffbe00;
   background-size: cover;
   position: absolute;
-  bottom: 50px;
+  bottom: 0;
   width: 100%;
-  padding: 10px 15px;
-  padding-top: 30px;
+  padding: 5px 5px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -85,14 +85,14 @@ h3 {
   justify-content: center;
 }
 
-.header-mobile .bot {
+/* .header-mobile .bot {
   background: #ffbe00;
   position: absolute;
   display: block;
   width: 100%;
   bottom: 0;
   height: 50px;
-}
+} */
 
 .header-mobile .bottom span {
   color: #000;
@@ -100,7 +100,7 @@ h3 {
 }
 
 .header-mobile .bottom a.tel {
-  font-size: 3em;
+  font-size: 1.8em;
   color: #c31f05;
 }
 
