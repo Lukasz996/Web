@@ -61,8 +61,8 @@ h3 {
 .header-mobile .locations {
 	font-size: 1.2em;
 	text-align: center;
-  margin-top: 2%;
-  padding: 5px 10px 5px 10px;
+	margin-top: 5px;
+	padding: 5px 10px 5px 10px;
 }
 
 .header-mobile .locations p {
@@ -81,7 +81,7 @@ h3 {
 	bottom: 0px;
 	width: 100%;
 	padding-top: 15px;
-  padding-bottom: 15px;
+	padding-bottom: 15px;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -116,7 +116,7 @@ h3 {
 }
 
 .hello h1 {
-  margin: 15px;
+	margin: 15px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -141,7 +141,7 @@ h3 {
 /* -------------------galeria------------------ */
 
 .gallery {
-  padding-top: 25px;
+	padding-top: 25px;
 	max-width: 700px;
 	margin: 0 auto;
 	text-align: center;
